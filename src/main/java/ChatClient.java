@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 public class ChatClient {
     public static void main(String[] args) {
         // Change this hostname to the server's IP address when running on different computers
-        String hostname = "127.0.0.1"; 
+        String hostname = "10.150.200.61";
         int port = 5000;
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
